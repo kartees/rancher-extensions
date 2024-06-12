@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  homepage:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2024-06-12T12:21:28.827660473Z"
+    description: Example extension that changes the landing home page
+    digest: bed8661d122136b2071a50ff00f139db7e9e6efe28dd1ade96fd01d926e2857f
+    icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/homepage/homepage.svg
+    name: homepage
+    type: application
+    urls:
+    - assets/homepage/homepage-0.3.0.tgz
+    version: 0.3.0
+  test:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.4'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-12T12:21:28.827864843Z"
+    description: test plugin
+    digest: 1d3159e9f5e5f405e9d840eabdf145c95e3aa1131c2ba8e78eae83b823875439
+    name: test
+    type: application
+    urls:
+    - assets/test/test-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-12T12:21:28.827336841Z"
