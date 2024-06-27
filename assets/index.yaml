@@ -12,9 +12,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-06-27T07:54:27.320269046Z"
+    created: "2024-06-27T07:59:55.308157893Z"
     description: Example extension that changes the landing home page
-    digest: 6be02be3c2a5c52843819b8f033c7787cf7f7f072062828f63e016bc7a578f1f
+    digest: c69bb853452ebaa5360b0df6acc8a7b335e0640820911659a305b42e9b9037f3
     icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/homepage/homepage.svg
     name: homepage
     type: application
@@ -33,9 +33,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-06-27T07:54:27.320470832Z"
+    created: "2024-06-12T12:21:28.827864843Z"
     description: test plugin
-    digest: 42604478c507ddbdf094eb8f38446fe08da7d4122dcf3bc59fb22181fdede1d3
+    digest: 1d3159e9f5e5f405e9d840eabdf145c95e3aa1131c2ba8e78eae83b823875439
     name: test
     type: application
     urls:
@@ -53,12 +53,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-06-27T07:54:27.320644355Z"
+    created: "2024-06-27T07:59:55.30835907Z"
     description: test-plugins plugin
-    digest: 56f0830c80c1f9087546075bf5cb6b34113d87ef1cf175108aee8af8a6e68839
+    digest: 41ec5922a261afd6083454881d8949c74362ee85fd40963ab638cf8affc0e743
     name: test-plugins
     type: application
     urls:
     - assets/test-plugins/test-plugins-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-27T07:54:27.319242111Z"
+generated: "2024-06-27T07:59:55.307152025Z"
