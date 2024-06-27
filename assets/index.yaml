@@ -12,9 +12,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-06-27T06:35:35.02574122Z"
+    created: "2024-06-27T07:54:27.320269046Z"
     description: Example extension that changes the landing home page
-    digest: 63d4a58f7be0e756cc83ca9b42eef1914002719f7f2f7b2188863475c7538f9a
+    digest: 6be02be3c2a5c52843819b8f033c7787cf7f7f072062828f63e016bc7a578f1f
     icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/homepage/homepage.svg
     name: homepage
     type: application
@@ -33,9 +33,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-06-27T06:35:35.02594501Z"
+    created: "2024-06-27T07:54:27.320470832Z"
     description: test plugin
-    digest: ec508b06591cda1c4edf742e0d97e80676f8f540ee6b4b7bf9191f35897d2268
+    digest: 42604478c507ddbdf094eb8f38446fe08da7d4122dcf3bc59fb22181fdede1d3
     name: test
     type: application
     urls:
@@ -44,21 +44,21 @@ entries:
   test-plugins:
   - annotations:
       catalog.cattle.io/certified: rancher
-      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
       catalog.cattle.io/namespace: cattle-ui-plugin-system
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux, windows
-      catalog.cattle.io/rancher-version: '>= v2.8.5'
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
       catalog.cattle.io/scope: management
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-06-27T06:35:35.026133201Z"
+    created: "2024-06-27T07:54:27.320644355Z"
     description: test-plugins plugin
-    digest: 56678d546e461a13529aad8660ce47097785d9b14b6bb0c05735a99eb4db4579
+    digest: 56f0830c80c1f9087546075bf5cb6b34113d87ef1cf175108aee8af8a6e68839
     name: test-plugins
     type: application
     urls:
     - assets/test-plugins/test-plugins-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-27T06:35:35.025214889Z"
+generated: "2024-06-27T07:54:27.319242111Z"
