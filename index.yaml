@@ -41,4 +41,24 @@ entries:
     urls:
     - assets/test/test-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-12T12:21:28.827336841Z"
+  test-plugins:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.29.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= v2.8.5'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-27T06:36:01.36934792Z"
+    description: test-plugins plugin
+    digest: 804c3f7d8754802c17c96947e49fdb2d5fa8fd27a7143d4dd8bf6029fb616e56
+    name: test-plugins
+    type: application
+    urls:
+    - https://github.com/kartees/rancher-extensions/releases/download/test-plugins-0.1.0/test-plugins-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-27T06:36:01.369354463Z"
